@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  25 SEP 2024 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  25 SEP 2024 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/DSP MaximilianoGaete Bonificación 1 Evaluación 2/DSP MaximilianoGaete Bonificación 1 Evaluación 2.tex"
-(c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/DSP MaximilianoGaete Bonificación 1 Evaluación 2/DSP MaximilianoGaete Bonificación 1 Evaluación 2.tex
+**"c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/DSP MaximilianoGaete Bonificación 3 Evaluación 2/DSP MaximilianoGaete Bonificación 3 Evaluación 2.tex"
+(c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/DSP MaximilianoGaete Bonificación 3 Evaluación 2/DSP MaximilianoGaete Bonificación 3 Evaluación 2.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -421,16 +421,16 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
-\openout3 = `"DSP MaximilianoGaete Bonificación 1 Evaluación 2.idx"'.
+\openout3 = `"DSP MaximilianoGaete Bonificación 3 Evaluación 2.idx"'.
 
 
-Writing index file "DSP MaximilianoGaete Bonificación 1 Evaluación 2".idx
+Writing index file "DSP MaximilianoGaete Bonificación 3 Evaluación 2".idx
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box104
-) (DSP MaximilianoGaete Bonificación 1 Evaluación 2.aux)
-\openout1 = `"DSP MaximilianoGaete Bonificación 1 Evaluación 2.aux"'.
+) (DSP MaximilianoGaete Bonificación 3 Evaluación 2.aux)
+\openout1 = `"DSP MaximilianoGaete Bonificación 3 Evaluación 2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
@@ -451,9 +451,9 @@ LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 Package hyperref Info: Link coloring OFF on input line 84.
- (DSP MaximilianoGaete Bonificación 1 Evaluación 2.out) (DSP MaximilianoGaete Bonificación 1 Evaluación 2.out)
+ (DSP MaximilianoGaete Bonificación 3 Evaluación 2.out) (DSP MaximilianoGaete Bonificación 3 Evaluación 2.out)
 \@outlinefile=\write4
-\openout4 = `"DSP MaximilianoGaete Bonificación 1 Evaluación 2.out"'.
+\openout4 = `"DSP MaximilianoGaete Bonificación 3 Evaluación 2.out"'.
 
 \c@lstlisting=\count328
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -530,33 +530,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1{C:/Users/Matzi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./figures/logo.png>] (DSP MaximilianoGaete Bonificación 1 Evaluación 2.ind)
+ <./figures/logo.png>] (DSP MaximilianoGaete Bonificación 3 Evaluación 2.ind)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \end{document}
-                     [1] (DSP MaximilianoGaete Bonificación 1 Evaluación 2.aux)
+l.125 \end{document}
+                     [1] (DSP MaximilianoGaete Bonificación 3 Evaluación 2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-Package rerunfilecheck Info: File `"DSP MaximilianoGaete Bonificación 1 Evaluación 2".out' has not changed.
+Package rerunfilecheck Info: File `"DSP MaximilianoGaete Bonificación 3 Evaluación 2".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14432 strings out of 473899
- 232881 string characters out of 5726500
- 637915 words of memory out of 5000000
- 37124 multiletter control sequences out of 15000+600000
- 562221 words of font info for 52 fonts, out of 8000000 for 9000
+ 14420 strings out of 473899
+ 232671 string characters out of 5726500
+ 633915 words of memory out of 5000000
+ 37118 multiletter control sequences out of 15000+600000
+ 561588 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,785b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on "DSP MaximilianoGaete Bonificación 1 Evaluación 2.pdf" (2 pages, 126017 bytes).
+ 75i,8n,79p,923b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "DSP MaximilianoGaete Bonificación 3 Evaluación 2.pdf" (2 pages, 103826 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
