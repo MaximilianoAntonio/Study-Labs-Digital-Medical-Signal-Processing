@@ -1,0 +1,122 @@
+\documentclass[10pt]{article}
+% Formato extenso: report
+\begin{sloppypar}
+	
+\end{sloppypar}
+% Formato corto: article
+
+% Esto es para que el LaTeX sepa que el texto está en español:
+\usepackage[english]{babel}
+
+\usepackage{amsmath, amsthm, amsfonts,amssymb}
+
+% Bórrame si quieres:
+\usepackage{multicol}
+
+% Referencias
+\usepackage{hyperref}
+
+% Paquete para escribir código
+\usepackage{listings}
+\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
+\usepackage{alltt}
+
+% Paquete para incluir imágenes
+\usepackage{graphicx}
+
+% Paquete para incluir varias imágenes en una
+\usepackage{subfig}
+
+% para poder fijar las imágenes ([H])
+\usepackage{float}
+
+% para agregar opciones al enumerate
+\usepackage{enumerate}
+
+% Teoremas
+\newtheorem{thm}{Teorema}[section]
+\newtheorem{cor}[thm]{Corolario}
+\newtheorem{lem}[thm]{Lema}
+\newtheorem{prop}[thm]{Proposición}
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definición}
+\theoremstyle{remark}
+\newtheorem{rem}[thm]{Observación}
+\theoremstyle{definition}
+\newtheorem{prob}{Problema}
+\numberwithin{equation}{prob}
+
+% Calculus symbols
+\newcommand{\pd}[2]{\frac{\partial #1}{ \partial #2}}   % First partial derivative command
+\newcommand{\td}[2]{\frac{\mathrm{d} #1}{ \mathrm{d} #2}}
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{ \partial #2 ^2}}   % Second partial derivative command
+\newcommand{\pddc}[3]{\frac{\partial^2 #1}{ \partial #2 \partial #3}}   % Second partial derivative command
+
+% Continuum mechanics & FEM symbols
+\def\sca   #1{\mbox{\rm{#1}}{}}
+\def\mat   #1{\mbox{\boldmath $\mathsf #1$}}
+\def\vec   #1{\mbox{\boldmath $#1$}{}}
+\def\ten   #1{\mbox{\boldmath $#1$}{}}
+\def\ltr   #1{\mbox{\sf{#1}}}
+\def\bltr  #1{\mbox{\sffamily{\bfseries{{#1}}}}}
+
+% math operators and symbols
+\DeclareMathOperator{\dive}{div}
+\DeclareMathOperator{\trace}{trace}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\symm}{symm}
+\DeclareMathOperator{\sk}{skew}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\Grad}{Grad}
+\DeclareMathOperator{\curl}{curl}
+\DeclareMathOperator{\Curl}{Curl}
+\def\R{\mbox{\(\mathbb{R}\)}}
+\def\dx{\mbox{\(\,\mathrm{d}x\)}}
+
+
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=2cm, bottom=3cm}
+
+\usepackage{makeidx}
+\makeindex
+
+
+\begin{document}
+	
+	\begin{titlepage}
+		
+		
+		%%%%% NO MODIFICAR
+		\begin{figure}
+			\begin{minipage}{4cm}
+				\includegraphics[width=0.9\textwidth]{./figures/logo}
+			\end{minipage}
+			\begin{minipage}{11cm}
+				\vspace{4mm}
+				{\sc UNIVERSIDAD DE VALPARAÍSO}\\
+				Escuela de Ingeniería Civil Biomédica\\
+				{\bf CBM414 Procesamiento digital de señales biomédicas}\\
+				\vspace{0mm}
+				\hrulefill
+			\end{minipage}
+		\end{figure}
+		\phantom{""}\vspace{60mm}
+		
+		
+		%%%%% MODIFICAR
+		\begin{center}
+			\Huge{\textbf{Bonificación 1 Evaluación 2}}\vspace{95mm}\\
+			\raggedleft \Large{Maximiliano Antonio Gaete Pizarro}\\ 
+		\end{center}
+		
+		
+	\end{titlepage}
+	
+\printindex
+
+
+
+
+
+
+\end{document}
