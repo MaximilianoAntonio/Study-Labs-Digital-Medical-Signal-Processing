@@ -105,7 +105,7 @@
 		
 		%%%%% MODIFICAR
 		\begin{center}
-			\Huge{\textbf{Bonificación 1 Evaluación 2}}\vspace{95mm}\\
+			\Huge{\textbf{Laboratory 4}}\vspace{95mm}\\
 			\raggedleft \Large{Maximiliano Antonio Gaete Pizarro}\\ 
 		\end{center}
 		
@@ -113,64 +113,5 @@
 	\end{titlepage}
 	
 \printindex
-
-\subsection*{1. Definición de Linealidad}
-Un sistema es lineal si cumple con dos propiedades clave:
-\begin{itemize}
-    \item \textbf{Superposición}: La salida para una suma de entradas debe ser igual a la suma de las salidas de cada entrada por separado.
-    \item \textbf{Homogeneidad}: La salida para una entrada escalada debe ser igual a la salida escalada de esa entrada.
-\end{itemize}
-
-Esto significa que, si tenemos dos entradas \( x_1(n) \) y \( x_2(n) \) con salidas respectivas \( y_1(n) \) y \( y_2(n) \), el sistema será lineal si se cumple la siguiente relación:
-\[
-y_{12}(n) = a_1 y_1(n) + a_2 y_2(n)
-\]
-donde \( a_1 \) y \( a_2 \) son constantes.
-
-\subsection*{2. Evaluación del sistema para entradas individuales}
-Empecemos por evaluar el sistema para dos entradas \( x_1(n) \) y \( x_2(n) \). Las salidas correspondientes serán:
-\[
-y_1(n) = 2x_1(n) + 3
-\]
-\[
-y_2(n) = 2x_2(n) + 3
-\]
-
-\subsection*{3. Combinación lineal de las entradas}
-Ahora, combinamos las dos entradas de forma lineal:
-\[
-x_{12}(n) = a_1 x_1(n) + a_2 x_2(n)
-\]
-y aplicamos el sistema a esta combinación.
-
-\subsection*{4. Evaluación de la combinación lineal}
-Aplicando el sistema a la combinación \( x_{12}(n) \), obtenemos:
-\[
-y_{12}(n) = 2x_{12}(n) + 3 = 2[a_1 x_1(n) + a_2 x_2(n)] + 3
-\]
-\[
-y_{12}(n) = 2a_1 x_1(n) + 2a_2 x_2(n) + 3
-\]
-
-\subsection*{5. Comparación con la combinación lineal de las salidas}
-Por otro lado, si calculamos la combinación lineal de las salidas \( y_1(n) \) y \( y_2(n) \), obtenemos:
-\[
-a_1 y_1(n) + a_2 y_2(n) = a_1 [2x_1(n) + 3] + a_2 [2x_2(n) + 3]
-\]
-\[
-= 2a_1 x_1(n) + 3a_1 + 2a_2 x_2(n) + 3a_2
-\]
-\[
-= 2a_1 x_1(n) + 2a_2 x_2(n) + 3(a_1 + a_2)
-\]
-
-\subsection*{6. Conclusión}
-Si comparamos los dos resultados obtenidos, podemos ver que \( y_{12}(n) \) no es exactamente igual a la combinación lineal de las salidas \( y_1(n) \) y \( y_2(n) \) debido al término constante \( 3 \), que no escala adecuadamente con los coeficientes \( a_1 \) y \( a_2 \). 
-
-Esto nos lleva a concluir que el sistema no es lineal, ya que no cumple con la propiedad de superposición.
-
-
-
-
 
 \end{document}

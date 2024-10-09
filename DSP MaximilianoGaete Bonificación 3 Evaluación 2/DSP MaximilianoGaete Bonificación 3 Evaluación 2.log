@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  25 SEP 2024 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  9 OCT 2024 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,7 +536,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \end{document}
+l.177 \end{document}
                      [1] (DSP MaximilianoGaete Bonificación 3 Evaluación 2.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -546,17 +546,17 @@ Package rerunfilecheck Info: File `"DSP MaximilianoGaete Bonificación 3 Evaluac
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14420 strings out of 473899
- 232671 string characters out of 5726500
- 633915 words of memory out of 5000000
- 37118 multiletter control sequences out of 15000+600000
- 561588 words of font info for 50 fonts, out of 8000000 for 9000
+ 14458 strings out of 473899
+ 233112 string characters out of 5726500
+ 635915 words of memory out of 5000000
+ 37142 multiletter control sequences out of 15000+600000
+ 567780 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,923b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "DSP MaximilianoGaete Bonificación 3 Evaluación 2.pdf" (2 pages, 103826 bytes).
+ 75i,8n,79p,785b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "DSP MaximilianoGaete Bonificación 3 Evaluación 2.pdf" (2 pages, 168171 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

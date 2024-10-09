@@ -105,7 +105,7 @@
 		
 		%%%%% MODIFICAR
 		\begin{center}
-			\Huge{\textbf{Bonificación 3 Evaluación 2}}\vspace{95mm}\\
+			\Huge{\textbf{Bonificación 4 Evaluación 2}}\vspace{95mm}\\
 			\raggedleft \Large{Maximiliano Antonio Gaete Pizarro}\\ 
 		\end{center}
 		
@@ -114,12 +114,64 @@
 	
 \printindex
 
-\section*{Resumen}
+\section*{Enunciado}
 
-La compatibilidad entre causalidad y estabilidad en sistemas lineales e invariantes en el tiempo (LTI) es fundamental en la implementación de sistemas discretos. Aunque estos conceptos son independientes, no siempre es posible cumplir con ambos al mismo tiempo. La estabilidad garantiza que las operaciones numéricas, como la suma de convoluciones o la resolución de ecuaciones diferenciales, permanezcan acotadas, evitando resultados indefinidos o saturación del hardware. Por su parte, la causalidad asegura que la salida del sistema en un instante dado dependa únicamente de las entradas presentes o pasadas, sin considerar entradas futuras.
+El objetivo es calcular los valores de $y_n$ para $n = 0, 1, 2, \dots, 7$ usando la siguiente fórmula de convolución discreta:
 
-Sin embargo, en aplicaciones como la implementación de filtros inversos o la ecualización de canales de transmisión, la estabilidad puede implicar respuestas anticausales, donde la respuesta impulsiva ocurre antes de que se presente la entrada. Esto genera un conflicto con la causalidad, especialmente en aplicaciones prácticas. En estos casos, una solución común es truncar la parte anticausal de la respuesta impulsiva y aplicar un retardo temporal. Al truncar la respuesta para valores suficientemente grandes de D
-D (números negativos), se obtiene un sistema que es aproximadamente causal, manteniendo la estabilidad. 
+\[
+y_n = \sum_{m=\max(0, n-4)}^{\min(n, 3)} h_m x_{n-m}
+\]
 
-D El error introducido por esta aproximación disminuye a medida que se incrementa el valor de D, lo que permite que el sistema aproximado se acerque al comportamiento del sistema exacto. En resumen, aunque estabilidad y causalidad no siempre pueden coexistir, en la práctica, la estabilidad suele priorizarse. En situaciones donde surge un conflicto, se pueden utilizar técnicas como el recorte de la respuesta impulsiva y la introducción de un retardo para obtener un sistema que sea estable y aproximadamente causal, asegurando un desempeño adecuado en aplicaciones discretas.
+Donde:
+
+\[
+\mathbf{h} = [h_0, h_1, h_2, h_3], \quad \mathbf{x} = [x_0, x_1, x_2, x_3, x_4]
+\]
+
+\subsection*{Cálculos de $y_n$:}
+
+1. Para $n = 0$:
+   \[
+   y_0 = h_0 x_0
+   \]
+
+2. Para $n = 1$:
+   \[
+   y_1 = h_0 x_1 + h_1 x_0
+   \]
+
+3. Para $n = 2$:
+   \[
+   y_2 = h_0 x_2 + h_1 x_1 + h_2 x_0
+   \]
+
+4. Para $n = 3$:
+   \[
+   y_3 = h_0 x_3 + h_1 x_2 + h_2 x_1 + h_3 x_0
+   \]
+
+5. Para $n = 4$:
+   \[
+   y_4 = h_1 x_3 + h_2 x_2 + h_3 x_1
+   \]
+
+6. Para $n = 5$:
+   \[
+   y_5 = h_1 x_4 + h_2 x_3 + h_3 x_2
+   \]
+
+7. Para $n = 6$:
+   \[
+   y_6 = h_2 x_4 + h_3 x_3
+   \]
+
+8. Para $n = 7$:
+   \[
+   y_7 = h_3 x_4
+   \]
+
+\section*{Conclusión}
+
+Los valores de $y_n$ han sido calculados siguiendo la fórmula de la convolución discreta.
+
 \end{document}
