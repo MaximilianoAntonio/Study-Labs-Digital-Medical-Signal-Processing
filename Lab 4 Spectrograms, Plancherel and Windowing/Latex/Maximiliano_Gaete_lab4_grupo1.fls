@@ -7,6 +7,14 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
@@ -42,8 +50,6 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.s
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
@@ -124,10 +130,6 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\tools\enumerate.sty
@@ -144,18 +146,9 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
 OUTPUT Maximiliano_Gaete_lab4_grupo1.idx
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Maximiliano_Gaete_lab4_grupo1.aux
-INPUT .\Maximiliano_Gaete_lab4_grupo1.aux
-INPUT Maximiliano_Gaete_lab4_grupo1.aux
 OUTPUT Maximiliano_Gaete_lab4_grupo1.aux
-INPUT .\Maximiliano_Gaete_lab4_grupo1.out
-INPUT .\Maximiliano_Gaete_lab4_grupo1.out
-INPUT Maximiliano_Gaete_lab4_grupo1.out
-INPUT Maximiliano_Gaete_lab4_grupo1.out
-OUTPUT Maximiliano_Gaete_lab4_grupo1.pdf
-INPUT .\Maximiliano_Gaete_lab4_grupo1.out
-INPUT .\Maximiliano_Gaete_lab4_grupo1.out
 OUTPUT Maximiliano_Gaete_lab4_grupo1.out
+OUTPUT Maximiliano_Gaete_lab4_grupo1.pdf
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -190,10 +183,8 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Matzi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Maximiliano_Gaete_lab4_grupo1.ind
-INPUT .\Maximiliano_Gaete_lab4_grupo1.ind
-INPUT Maximiliano_Gaete_lab4_grupo1.ind
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT Maximiliano_Gaete_lab4_grupo1.toc
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -221,6 +212,139 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmtt.fd
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmtt.fd
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmtt.fd
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tctt0800.tfm
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Rest.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Gaussian Bells Sleep.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Rest.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectogram Sleep.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hamming.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Rectangular.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hamming.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Sleep) - Window Hann.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 0.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 50.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 0.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 50.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Sleep) - Overlap 75.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 128 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 256 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
+INPUT .\figures\Spectrogram (Rest) - Window Size 512 samples.png
 INPUT .\figures\Optimal Spectrogram (Rest).png
 INPUT .\figures\Optimal Spectrogram (Rest).png
 INPUT .\figures\Optimal Spectrogram (Rest).png
