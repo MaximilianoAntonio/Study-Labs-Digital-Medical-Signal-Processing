@@ -2,7 +2,6 @@
 % Formato extenso: report
 \usepackage{subcaption}
 % Removed sloppypar environment
-% Formato corto: article
 
 % Esto es para que el LaTeX sepa que el texto está en español:
 \usepackage[english]{babel}
@@ -35,7 +34,7 @@
 % para poder hacer tablas más copadas
 \usepackage{booktabs}
 
-\usepackage{tocloft}
+% \usepackage{tocloft}
 
 % para poder hacer índice
 \usepackage{makeidx}
@@ -714,15 +713,15 @@ These changes in frequency components during sleep are related to the regulation
 
 The chosen combination of window type (Hamming), window size (256 samples), and overlap (75\%) provides an optimal balance for analyzing cardiac signals in both rest and sleep states. The parameters allow for accurate capture of both the temporal dynamics of heart rate and its frequency components, enabling a comprehensive understanding of the cardiovascular system's behavior in different physiological states.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram Rest.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Optimal Spectrogram Rest.png}
     \caption{Spectrogram of the cardiac signal during rest.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram Sleep.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Optimal Spectrogram Sleep.png}
     \caption{Spectrogram of the cardiac signal during sleep.}
 \end{figure}
 
@@ -769,7 +768,7 @@ plt.show()
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Hemodynamic Response Function (HRF).png}
+    \includegraphics[width=0.8\textwidth]{./figures/Hemodynamic Response Function (HRF).png}
     \caption{Hemodynamic Response Function (HRF) in Python.}
 \end{figure}
 
@@ -830,7 +829,7 @@ plt.show()
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Hemodynamic Response Function Response.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Hemodynamic Response Function Response.png}
     \caption{Response to a 3-second pulse, 10-second pulse and 0.5 Hz sine wave.}
 \end{figure}
 
@@ -878,7 +877,7 @@ plt.show()
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Inputs e1 and e2.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Inputs e1 and e2.png}
     \caption{Inputs $e_1$ and $e_2$.}
 \end{figure}
 
@@ -920,7 +919,7 @@ We calculate the responses of the system to the inputs $e_1$ and $e_2$ using the
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Response Inputs e1 and e2.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Response Inputs e1 and e2.png}
     \caption{Response to inputs $e_1$ and $e_2$.}
 \end{figure}
 
@@ -978,7 +977,7 @@ We combine two inputs $e_1$ and $e_2$ and Time invariance is verified by shiftin
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Response Verification Inputs e1 and e2.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Response Verification Inputs e1 and e2.png}
     \caption{Linearity and Time invariance verification between $e_1$ and $e_2$.}
 \end{figure}
 
