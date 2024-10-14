@@ -713,15 +713,271 @@ The chosen combination of window type (Hamming), window size (256 samples), and 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Optimal Spectrogram (Rest).png}
+    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram (Rest).png}
     \caption{Spectrogram of the cardiac signal during rest.}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Optimal Spectrogram (Sleep).png}
+    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram (Sleep).png}
     \caption{Spectrogram of the cardiac signal during sleep.}
 \end{figure}
+
+
+\section{Brain Response for the hemodynamic response function (HRF)}
+
+We analyze the response of a linear and time-invariant (LTI) system using the hemodynamic response function (HRF). The system’s behavior is explored through various types of inputs, including pulses and sinusoidal signals, and the properties of linearity and time invariance are verified.
+
+The HRF is mathematically described as:
+
+\begin{equation}
+h(t) = \left( \frac{t}{\tau_1} \right)^{\delta_1} \exp\left[ -\frac{\delta_1}{\tau_1} (t-\tau_1) \right] - c \left( \frac{t}{\tau_2} \right)^{\delta_2} \exp\left[ -\frac{\delta_2}{\tau_2} (t-\tau_2) \right],
+\end{equation}
+
+where the parameters $\{\tau_1,\tau_2,\delta_1,\delta_2,c\}$ control the shape of the HRF. The typical parameter values are $\tau_1=5.4$, $\tau_2=10.8$, $\delta_1=6$, $\delta_2=12$, and $c=0.35$.
+
+\subsection{Hemodynamic Response Function (HRF) in Python}
+
+The HRF function can be implemented in Python as follows:
+
+\begin{lstlisting}[language=Python]
+import numpy as np
+import matplotlib.pyplot as plt
+
+def hrf(t, tau1=5.4, delta1=6.0, tau2=10.8, delta2=12.0, c=0.35):
+    h = ((t / tau1) ** delta1) * np.exp(-delta1 * (t - tau1) / tau1) - \
+        c * ((t / tau2) ** delta2) * np.exp(-delta2 * (t - tau2) / tau2)
+    h[t < 0] = 0  # Ensure h(t) = 0 for t < 0
+    return h
+
+TR = 0.1  # sampling interval
+N_pts = 30  # number of HRF points
+timeline = np.arange(0, N_pts, TR)
+h = hrf(timeline)
+
+plt.figure(figsize=(20, 5))
+plt.plot(timeline, h)
+plt.xlabel('seconds')
+plt.ylabel('amplitude')
+plt.title('Hemodynamic Response Function (HRF)')
+plt.grid(True)
+plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{./figures/Hemodynamic Response Function (HRF).png}
+    \caption{Hemodynamic Response Function (HRF) in Python.}
+\end{figure}
+
+\subsection{Brain Response to Inputs}
+
+We calculated the brain’s response to three different input signals: a 3-second pulse, a 10-second pulse, and a 0.5 Hz sine wave.
+
+\subsection*{Response}
+The following Python code was used to generate the response.
+
+\begin{lstlisting}[language=Python]
+e_pulse3 = np.zeros_like(timeline)
+e_pulse3[(timeline >= 0) & (timeline < 3)] = 1
+
+e_pulse10 = np.zeros_like(timeline)
+e_pulse10[(timeline >= 0) & (timeline < 10)] = 1
+
+#sinusoidal input 0.5 Hz
+e_sin = np.sin(2 * np.pi * 0.5 * timeline)
+
+# Responses to the inputs
+response_pulse3 = signal.convolve(e_pulse3, h, mode='full')[:len(timeline)] * TR
+response_pulse10 = signal.convolve(e_pulse10, h, mode='full')[:len(timeline)] * TR
+response_sin = signal.convolve(e_sin, h, mode='full')[:len(timeline)] * TR
+
+plt.figure(figsize=(12, 8))
+
+plt.subplot(3, 1, 1)
+plt.plot(timeline, e_pulse3, label='Input: 3s Pulse')
+plt.plot(timeline, response_pulse3, label='Response')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+plt.title('Response to 3-second Pulse')
+plt.grid(True)
+plt.legend()
+
+plt.subplot(3, 1, 2)
+plt.plot(timeline, e_pulse10, label='Input: 10s Pulse')
+plt.plot(timeline, response_pulse10, label='Response')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+plt.title('Response to 10-second Pulse')
+plt.grid(True)
+plt.legend()
+
+plt.subplot(3, 1, 3)
+plt.plot(timeline, e_sin, label='Input: 0.5 Hz Sine Wave')
+plt.plot(timeline, response_sin, label='Response')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+plt.title('Response to 0.5 Hz Sine Wave')
+plt.grid(True)
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{./figures/Hemodynamic Response Function Response.png}
+    \caption{Response to a 3-second pulse, 10-second pulse and 0.5 Hz sine wave.}
+\end{figure}
+
+\subsubsection{Interpretation}
+
+The responses to the different inputs — a 3-second pulse, a 10-second pulse, and a 0.5 Hz sinusoidal wave — highlight how the Hemodynamic Response Function (HRF) models brain activity as a linear and time-invariant system.
+
+For the \textbf{3-second pulse}, the response shows a rapid increase, peaking around 5 seconds, followed by a smooth decay. This demonstrates how the HRF models the brain's reaction to brief stimuli with an initial sharp rise in activity and a gradual return to baseline.
+
+For the \textbf{10-second pulse}, the response is more pronounced in both amplitude and duration. The longer input generates a larger peak, reflecting the accumulation of energy over time. Although the profile of the response is similar to that of the 3-second pulse, the extended duration of the input causes a higher overall response.
+
+For the \textbf{0.5 Hz sinusoidal input}, the HRF generates a damped response. This occurs because the HRF acts like a low-pass filter, attenuating the higher frequency components and preserving the low-frequency ones. The response follows the input oscillation but is smoothed out, indicating the system's filtering characteristics.
+
+In summary, these results illustrate how the HRF serves as a temporal filter that smooths out incoming signals, providing a biologically plausible model of how the brain responds to various stimuli. The HRF effectively modulates the shape and amplitude of the input signals, particularly when the inputs vary in frequency or duration.
+
+\subsection{e1 and e2 Inputs}
+
+We define two input signals $e_1$ and $e_2$ as follows:
+
+\begin{lstlisting}[language=Python]
+TR = 1  # Sampling interval
+N_pts = 30  # Number of points
+timeline = np.arange(0, N_pts, TR)
+h = hrf(timeline)
+
+e1 = np.zeros(N_pts)
+e1[10:13] = 1
+e1[20:30] = 1
+
+e2 = np.zeros(N_pts)
+e2[5:8] = 1
+e2[15:25] = 1
+
+plt.figure(figsize=(20, 5))
+plt.stem(timeline, e1, label='e1', linefmt='C0-', markerfmt='C0o', basefmt='C0-')
+plt.stem(timeline, e2, label='e2', linefmt='C1-', markerfmt='C1o', basefmt='C1-')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+plt.title('Inputs e1 and e2')
+plt.grid()
+plt.legend()
+plt.show()
+
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{./figures/Inputs e1 and e2.png}
+    \caption{Inputs $e_1$ and $e_2$.}
+\end{figure}
+
+\subsection{e1 and e2 Responses}
+
+We calculate the responses of the system to the inputs $e_1$ and $e_2$ using the convolution operation.
+
+\begin{lstlisting}[language=Python]
+    # Convolucion de e1 con h
+    response_e1 = convolve(e1, h, method='fft')[:len(e1)] * TR
+    
+    # Convolucion de e2 con h
+    response_e2 = convolve(e2, h, method='fft')[:len(e2)] * TR
+    
+    # Graficar las respuestas
+    plt.figure(figsize=(12, 8))
+    
+    plt.subplot(2, 1, 1)
+    plt.plot(timeline, e1, label='Input: e1')
+    plt.plot(timeline, response_e1, label='Response to e1')
+    plt.xlabel('Time (s)')
+    plt.ylabel('Amplitude')
+    plt.title('Response to e1')
+    plt.grid(True)
+    plt.legend()
+    
+    plt.subplot(2, 1, 2)
+    plt.plot(timeline, e2, label='Input: e2')
+    plt.plot(timeline, response_e2, label='Response to e2')
+    plt.xlabel('Time (s)')
+    plt.ylabel('Amplitude')
+    plt.title('Response to e2')
+    plt.grid(True)
+    plt.legend()
+    
+    plt.tight_layout()
+    plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{./figures/Response Inputs e1 and e2.png}
+    \caption{Response to inputs $e_1$ and $e_2$.}
+\end{figure}
+
+\subsection{Linearity and Time-Invariance Verification}
+
+\subsection*{Verification}
+We combine two inputs $e_1$ and $e_2$ and Time invariance is verified by shifting the input signal $e_1$ by 5 seconds.:
+
+\begin{lstlisting}[language=Python]
+    # Convolucion de e1 y e2 con h
+    response_e1 = convolve(e1, h, method='fft')[:len(e1)] * TR
+    response_e2 = convolve(e2, h, method='fft')[:len(e2)] * TR
+    
+    # Verificar la propiedad de linealidad
+    a, b = 2, 3
+    combined_input = a * e1 + b * e2
+    combined_response = convolve(combined_input, h, method='fft')[:len(combined_input)] * TR
+    expected_combined_response = a * response_e1 + b * response_e2
+    
+    # Verificar la propiedad de invariancia temporal
+    shift = -5
+    shifted_input = np.roll(e1, shift)
+    shifted_response = convolve(shifted_input, h, method='fft')[:len(shifted_input)] * TR
+    expected_shifted_response = np.roll(response_e1, shift)
+    
+    # Graficar las respuestas para verificar visualmente
+    plt.figure(figsize=(12, 8))
+    
+    plt.subplot(3, 1, 1)
+    plt.plot(timeline, combined_response, label='Combined Response')
+    plt.plot(timeline, expected_combined_response, '--', label='Expected Combined Response')
+    plt.xlabel('Time (s)')
+    plt.ylabel('Amplitude')
+    plt.title('Verification of Linearity')
+    plt.legend()
+    plt.grid(True)
+    
+    plt.subplot(3, 1, 2)
+    plt.plot(timeline, shifted_response, label='Shifted Response')
+    plt.plot(timeline, expected_shifted_response, '--', label='Expected Shifted Response')
+    plt.xlabel('Time (s)')
+    plt.ylabel('Amplitude')
+    plt.title('Verification of Time Invariance')
+    plt.legend()
+    plt.grid(True)
+    
+    plt.tight_layout()
+    plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{./figures/Response Verification Inputs e1 and e2.png}
+    \caption{Linearity and Time invariance verification between $e_1$ and $e_2$.}
+\end{figure}
+
+
+\subsection*{Conclusion}
+Through the analysis, we verified that the HRF can be considered as a model for a linear and time-invariant system. The system fulfills the properties of linearity and time invariance, making it suitable for modeling biological responses to various types of stimuli.
+
 
 \end{document}
 

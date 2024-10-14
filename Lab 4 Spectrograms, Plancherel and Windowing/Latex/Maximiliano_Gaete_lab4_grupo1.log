@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  14 OCT 2024 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  14 OCT 2024 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,15 +724,56 @@ Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Size 512 samples.
 File: ./figures/Optimal Spectrogram (Rest).png Graphic file (type png)
 <use ./figures/Optimal Spectrogram (Rest).png>
 Package pdftex.def Info: ./figures/Optimal Spectrogram (Rest).png  used on input line 716.
-(pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
+(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 <./figures/Optimal Spectrogram (Sleep).png, id=356, 684.3969pt x 395.3169pt>
 File: ./figures/Optimal Spectrogram (Sleep).png Graphic file (type png)
 <use ./figures/Optimal Spectrogram (Sleep).png>
 Package pdftex.def Info: ./figures/Optimal Spectrogram (Sleep).png  used on input line 722.
-(pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
+(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 
 
-[21 <./figures/Optimal Spectrogram (Rest).png> <./figures/Optimal Spectrogram (Sleep).png>] (Maximiliano_Gaete_lab4_grupo1.aux)
+[21 <./figures/Optimal Spectrogram (Rest).png> <./figures/Optimal Spectrogram (Sleep).png>]
+<./figures/Hemodynamic Response Function (HRF).png, id=366, 1179.4464pt x 339.669pt>
+File: ./figures/Hemodynamic Response Function (HRF).png Graphic file (type png)
+<use ./figures/Hemodynamic Response Function (HRF).png>
+Package pdftex.def Info: ./figures/Hemodynamic Response Function (HRF).png  used on input line 769.
+(pdftex.def)             Requested size: 377.62642pt x 108.74812pt.
+
+
+[22 <./figures/Hemodynamic Response Function (HRF).png>]
+<./figures/Hemodynamic Response Function Response.png, id=405, 859.2903pt x 570.933pt>
+File: ./figures/Hemodynamic Response Function Response.png Graphic file (type png)
+<use ./figures/Hemodynamic Response Function Response.png>
+Package pdftex.def Info: ./figures/Hemodynamic Response Function Response.png  used on input line 830.
+(pdftex.def)             Requested size: 377.62642pt x 250.89766pt.
+
+
+[23]
+
+[24 <./figures/Hemodynamic Response Function Response.png>]
+<./figures/Inputs e1 and e2.png, id=475, 1171.4967pt x 339.669pt>
+File: ./figures/Inputs e1 and e2.png Graphic file (type png)
+<use ./figures/Inputs e1 and e2.png>
+Package pdftex.def Info: ./figures/Inputs e1 and e2.png  used on input line 878.
+(pdftex.def)             Requested size: 377.62642pt x 109.48929pt.
+<./figures/Response Inputs e1 and e2.png, id=476, 859.2903pt x 570.933pt>
+File: ./figures/Response Inputs e1 and e2.png Graphic file (type png)
+<use ./figures/Response Inputs e1 and e2.png>
+Package pdftex.def Info: ./figures/Response Inputs e1 and e2.png  used on input line 920.
+(pdftex.def)             Requested size: 377.62642pt x 250.89766pt.
+
+
+[25 <./figures/Inputs e1 and e2.png>]
+
+[26 <./figures/Response Inputs e1 and e2.png>]
+<./figures/Response Verification Inputs e1 and e2.png, id=568, 859.2903pt x 402.5439pt>
+File: ./figures/Response Verification Inputs e1 and e2.png Graphic file (type png)
+<use ./figures/Response Verification Inputs e1 and e2.png>
+Package pdftex.def Info: ./figures/Response Verification Inputs e1 and e2.png  used on input line 973.
+(pdftex.def)             Requested size: 377.62642pt x 176.89873pt.
+
+
+[27 <./figures/Response Verification Inputs e1 and e2.png>] (Maximiliano_Gaete_lab4_grupo1.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -748,20 +789,20 @@ Package rerunfilecheck Warning: File `Maximiliano_Gaete_lab4_grupo1.out' has cha
 
 Package rerunfilecheck Info: Checksums for `Maximiliano_Gaete_lab4_grupo1.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  673C630D9EB36CC35B564450B5E43127;8051.
+(rerunfilecheck)             After:  A9B0C3D6035F8413DB5E13F3BD808CAB;9627.
  ) 
 Here is how much of TeX's memory you used:
- 15394 strings out of 473899
- 249576 string characters out of 5726500
- 995473 words of memory out of 5000000
- 37856 multiletter control sequences out of 15000+600000
+ 15658 strings out of 473899
+ 254690 string characters out of 5726500
+ 1048473 words of memory out of 5000000
+ 37937 multiletter control sequences out of 15000+600000
  563460 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,819b,1405s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0800.pk> <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Maximiliano_Gaete_lab4_grupo1.pdf (22 pages, 6124440 bytes).
+ 75i,8n,79p,819b,2021s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0800.pk> <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Maximiliano_Gaete_lab4_grupo1.pdf (28 pages, 6473991 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 235 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 418 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
