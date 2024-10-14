@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  14 OCT 2024 02:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  14 OCT 2024 02:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -396,83 +396,132 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
+\@cmidla=\count318
+\@cmidlb=\count319
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
+\@thisruleclass=\count320
+\@lastruleclass=\count321
+\@thisrulewidth=\dimen192
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforesecskip=\skip71
+\cftsecindent=\skip72
+\cftsecnumwidth=\skip73
+\cftbeforesubsecskip=\skip74
+\cftsubsecindent=\skip75
+\cftsubsecnumwidth=\skip76
+\cftbeforesubsubsecskip=\skip77
+\cftsubsubsecindent=\skip78
+\cftsubsubsecnumwidth=\skip79
+\cftbeforeparaskip=\skip80
+\cftparaindent=\skip81
+\cftparanumwidth=\skip82
+\cftbeforesubparaskip=\skip83
+\cftsubparaindent=\skip84
+\cftsubparanumwidth=\skip85
+\cftbeforeloftitleskip=\skip86
+\cftafterloftitleskip=\skip87
+\cftbeforefigskip=\skip88
+\cftfigindent=\skip89
+\cftfignumwidth=\skip90
+\c@lofdepth=\count322
+\c@lotdepth=\count323
+\cftbeforelottitleskip=\skip91
+\cftafterlottitleskip=\skip92
+\cftbeforetabskip=\skip93
+\cfttabindent=\skip94
+\cfttabnumwidth=\skip95
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
-\c@thm=\count318
-\c@prob=\count319
+\c@thm=\count324
+\c@prob=\count325
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count320
-\Gm@cntv=\count321
-\c@Gm@tempcnt=\count322
-\Gm@bindingoffset=\dimen180
-\Gm@wd@mp=\dimen181
-\Gm@odd@mp=\dimen182
-\Gm@even@mp=\dimen183
-\Gm@layoutwidth=\dimen184
-\Gm@layoutheight=\dimen185
-\Gm@layouthoffset=\dimen186
-\Gm@layoutvoffset=\dimen187
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
+\Gm@bindingoffset=\dimen193
+\Gm@wd@mp=\dimen194
+\Gm@odd@mp=\dimen195
+\Gm@even@mp=\dimen196
+\Gm@layoutwidth=\dimen197
+\Gm@layoutheight=\dimen198
+\Gm@layouthoffset=\dimen199
+\Gm@layoutvoffset=\dimen256
 \Gm@dimlist=\toks33
- (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
-Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-)
-\@indexfile=\write3
-\openout3 = `Maximiliano_Gaete_lab4_grupo1.idx'.
-
-
-Writing index file Maximiliano_Gaete_lab4_grupo1.idx
-(C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
+\l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box104
 )
 No file Maximiliano_Gaete_lab4_grupo1.aux.
 \openout1 = `Maximiliano_Gaete_lab4_grupo1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 82.
-\@outlinefile=\write4
-\openout4 = `Maximiliano_Gaete_lab4_grupo1.out'.
+Package hyperref Info: Link coloring OFF on input line 88.
+\@outlinefile=\write3
+\openout3 = `Maximiliano_Gaete_lab4_grupo1.out'.
 
-\c@lstlisting=\count324
+\c@lstlisting=\count330
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen188
+\scratchcounter=\count331
+\scratchdimen=\dimen257
 \scratchbox=\box105
-\nofMPsegments=\count326
-\nofMParguments=\count327
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen189
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen258
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks35
 ) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -480,10 +529,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/Lab 4 Spectrograms, Plancherel and Windowing/Latex/Maximiliano_Gaete_lab4_grupo1.tex:82: Undefined control sequence.
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Digital Processing of Biomedical Signals/Study-Labs-Digital-Medical-Signal-Processing/Lab 4 Spectrograms, Plancherel and Windowing/Latex/Maximiliano_Gaete_lab4_grupo1.tex:88: Undefined control sequence.
 <argument> \sf@counterlist 
                            
-l.82 \begin{document}
+l.88 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -528,13 +577,13 @@ and I'll forget about whatever was undefined.
 <./figures/logo.png, id=3, 1206.5075pt x 563.10374pt>
 File: ./figures/logo.png Graphic file (type png)
 <use ./figures/logo.png>
-Package pdftex.def Info: ./figures/logo.png  used on input line 91.
+Package pdftex.def Info: ./figures/logo.png  used on input line 96.
 (pdftex.def)             Requested size: 102.42921pt x 47.79874pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -542,10 +591,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1{C:/Users/Matzi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
  <./figures/logo.png>]
-No file Maximiliano_Gaete_lab4_grupo1.ind.
 No file Maximiliano_Gaete_lab4_grupo1.toc.
-\tf@toc=\write5
-\openout5 = `Maximiliano_Gaete_lab4_grupo1.toc'.
+\tf@toc=\write4
+\openout4 = `Maximiliano_Gaete_lab4_grupo1.toc'.
 
 
 
@@ -553,223 +601,223 @@ No file Maximiliano_Gaete_lab4_grupo1.toc.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \newpage
+l.121 \newpage
                [1] (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 125.
-<./figures/Comparison of Windows.png, id=21, 611.4042pt x 395.3169pt>
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 128.
+<./figures/Comparison of Windows.png, id=20, 611.4042pt x 395.3169pt>
 File: ./figures/Comparison of Windows.png Graphic file (type png)
 <use ./figures/Comparison of Windows.png>
-Package pdftex.def Info: ./figures/Comparison of Windows.png  used on input line 158.
+Package pdftex.def Info: ./figures/Comparison of Windows.png  used on input line 161.
 (pdftex.def)             Requested size: 330.42041pt x 213.6489pt.
 
 
 [2 <./figures/Comparison of Windows.png>]
-<./figures/Magnitude Spectrum of Windows.png, id=62, 622.9674pt x 395.3169pt>
+<./figures/Magnitude Spectrum of Windows.png, id=61, 622.9674pt x 395.3169pt>
 File: ./figures/Magnitude Spectrum of Windows.png Graphic file (type png)
 <use ./figures/Magnitude Spectrum of Windows.png>
-Package pdftex.def Info: ./figures/Magnitude Spectrum of Windows.png  used on input line 211.
+Package pdftex.def Info: ./figures/Magnitude Spectrum of Windows.png  used on input line 214.
 (pdftex.def)             Requested size: 283.22162pt x 179.73073pt.
 
 
 [3]
 
 [4 <./figures/Magnitude Spectrum of Windows.png>]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 271.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 274.
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<./figures/Gaussian Bells Rest.png, id=106, 611.4042pt x 395.3169pt>
+<./figures/Gaussian Bells Rest.png, id=105, 611.4042pt x 395.3169pt>
 File: ./figures/Gaussian Bells Rest.png Graphic file (type png)
 <use ./figures/Gaussian Bells Rest.png>
-Package pdftex.def Info: ./figures/Gaussian Bells Rest.png  used on input line 293.
+Package pdftex.def Info: ./figures/Gaussian Bells Rest.png  used on input line 296.
 (pdftex.def)             Requested size: 377.62642pt x 244.17104pt.
 
 
 [5]
-<./figures/Gaussian Bells Sleep.png, id=140, 611.4042pt x 395.3169pt>
+<./figures/Gaussian Bells Sleep.png, id=139, 611.4042pt x 395.3169pt>
 File: ./figures/Gaussian Bells Sleep.png Graphic file (type png)
 <use ./figures/Gaussian Bells Sleep.png>
-Package pdftex.def Info: ./figures/Gaussian Bells Sleep.png  used on input line 300.
+Package pdftex.def Info: ./figures/Gaussian Bells Sleep.png  used on input line 303.
 (pdftex.def)             Requested size: 377.62642pt x 244.17104pt.
 
 
 [6 <./figures/Gaussian Bells Rest.png> <./figures/Gaussian Bells Sleep.png>]
-<./figures/Spectogram Rest.png, id=150, 684.3969pt x 383.031pt>
+<./figures/Spectogram Rest.png, id=149, 684.3969pt x 383.031pt>
 File: ./figures/Spectogram Rest.png Graphic file (type png)
 <use ./figures/Spectogram Rest.png>
-Package pdftex.def Info: ./figures/Spectogram Rest.png  used on input line 326.
+Package pdftex.def Info: ./figures/Spectogram Rest.png  used on input line 329.
 (pdftex.def)             Requested size: 377.62642pt x 211.34566pt.
-<./figures/Spectogram Sleep.png, id=151, 684.3969pt x 383.031pt>
+<./figures/Spectogram Sleep.png, id=150, 684.3969pt x 383.031pt>
 File: ./figures/Spectogram Sleep.png Graphic file (type png)
 <use ./figures/Spectogram Sleep.png>
-Package pdftex.def Info: ./figures/Spectogram Sleep.png  used on input line 333.
+Package pdftex.def Info: ./figures/Spectogram Sleep.png  used on input line 336.
 (pdftex.def)             Requested size: 377.62642pt x 211.34566pt.
 
 
 [7 <./figures/Spectogram Rest.png>]
 
 [8 <./figures/Spectogram Sleep.png>]
-<./figures/Spectrogram (Rest) - Window Rectangular.png, id=168, 690.9012pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Rectangular.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Rectangular.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Rectangular.png  used on input line 414.
+<./figures/Spectrogram Rest Window Rectangular.png, id=167, 690.9012pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Rectangular.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Rectangular.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Rectangular.png  used on input line 417.
 (pdftex.def)             Requested size: 330.42041pt x 189.06229pt.
 
 
 [9]
-<./figures/Spectrogram (Rest) - Window Hamming.png, id=208, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Hamming.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Hamming.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Hamming.png  used on input line 423.
+<./figures/Spectrogram Rest Window Hamming.png, id=207, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Hamming.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Hamming.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Hamming.png  used on input line 426.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
-<./figures/Spectrogram (Rest) - Window Hann.png, id=209, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Hann.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Hann.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Hann.png  used on input line 432.
+<./figures/Spectrogram Rest Window Hann.png, id=208, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Hann.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Hann.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Hann.png  used on input line 435.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
 
 
-[10 <./figures/Spectrogram (Rest) - Window Rectangular.png> <./figures/Spectrogram (Rest) - Window Hamming.png>]
-<./figures/Spectrogram (Sleep) - Window Rectangular.png, id=220, 690.9012pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Window Rectangular.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Window Rectangular.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Window Rectangular.png  used on input line 444.
+[10 <./figures/Spectrogram Rest Window Rectangular.png> <./figures/Spectrogram Rest Window Hamming.png>]
+<./figures/Spectrogram Sleep Window Rectangular.png, id=219, 690.9012pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Window Rectangular.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Window Rectangular.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Window Rectangular.png  used on input line 447.
 (pdftex.def)             Requested size: 330.42041pt x 189.06229pt.
-<./figures/Spectrogram (Sleep) - Window Hamming.png, id=221, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Window Hamming.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Window Hamming.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Window Hamming.png  used on input line 453.
+<./figures/Spectrogram Sleep Window Hamming.png, id=220, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Window Hamming.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Window Hamming.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Window Hamming.png  used on input line 456.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
 
 
-[11 <./figures/Spectrogram (Rest) - Window Hann.png> <./figures/Spectrogram (Sleep) - Window Rectangular.png>]
-<./figures/Spectrogram (Sleep) - Window Hann.png, id=233, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Window Hann.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Window Hann.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Window Hann.png  used on input line 462.
+[11 <./figures/Spectrogram Rest Window Hann.png> <./figures/Spectrogram Sleep Window Rectangular.png>]
+<./figures/Spectrogram Sleep Window Hann.png, id=232, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Window Hann.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Window Hann.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Window Hann.png  used on input line 465.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
 
 
-[12 <./figures/Spectrogram (Sleep) - Window Hamming.png> <./figures/Spectrogram (Sleep) - Window Hann.png>]
-<./figures/Spectrogram (Rest) - Overlap 0.png, id=247, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Overlap 0.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Overlap 0.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Overlap 0.png  used on input line 514.
+[12 <./figures/Spectrogram Sleep Window Hamming.png> <./figures/Spectrogram Sleep Window Hann.png>]
+<./figures/Spectrogram Rest Overlap 0.png, id=246, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Overlap 0.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Overlap 0.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Overlap 0.png  used on input line 517.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 
 
 [13]
-<./figures/Spectrogram (Rest) - Overlap 50.png, id=271, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Overlap 50.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Overlap 50.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Overlap 50.png  used on input line 525.
+<./figures/Spectrogram Rest Overlap 50.png, id=270, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Overlap 50.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Overlap 50.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Overlap 50.png  used on input line 528.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
-<./figures/Spectrogram (Rest) - Overlap 75.png, id=272, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Overlap 75.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Overlap 75.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Overlap 75.png  used on input line 535.
-(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
-
-
-[14 <./figures/Spectrogram (Rest) - Overlap 0.png> <./figures/Spectrogram (Rest) - Overlap 50.png>]
-<./figures/Spectrogram (Sleep) - Overlap 0.png, id=283, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Overlap 0.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Overlap 0.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Overlap 0.png  used on input line 548.
-(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
-<./figures/Spectrogram (Sleep) - Overlap 50.png, id=284, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Overlap 50.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Overlap 50.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Overlap 50.png  used on input line 556.
+<./figures/Spectrogram Rest Overlap 75.png, id=271, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Overlap 75.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Overlap 75.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Overlap 75.png  used on input line 538.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 
 
-[15 <./figures/Spectrogram (Rest) - Overlap 75.png> <./figures/Spectrogram (Sleep) - Overlap 0.png>]
-<./figures/Spectrogram (Sleep) - Overlap 75.png, id=295, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Sleep) - Overlap 75.png Graphic file (type png)
-<use ./figures/Spectrogram (Sleep) - Overlap 75.png>
-Package pdftex.def Info: ./figures/Spectrogram (Sleep) - Overlap 75.png  used on input line 565.
+[14 <./figures/Spectrogram Rest Overlap 0.png> <./figures/Spectrogram Rest Overlap 50.png>]
+<./figures/Spectrogram Sleep Overlap 0.png, id=282, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Overlap 0.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Overlap 0.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Overlap 0.png  used on input line 551.
+(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
+<./figures/Spectrogram Sleep Overlap 50.png, id=283, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Overlap 50.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Overlap 50.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Overlap 50.png  used on input line 559.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 
 
-[16 <./figures/Spectrogram (Sleep) - Overlap 50.png> <./figures/Spectrogram (Sleep) - Overlap 75.png>]
-<./figures/Spectrogram (Rest) - Window Size 128 samples.png, id=307, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Size 128 samples.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Size 128 samples.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Size 128 samples.png  used on input line 615.
+[15 <./figures/Spectrogram Rest Overlap 75.png> <./figures/Spectrogram Sleep Overlap 0.png>]
+<./figures/Spectrogram Sleep Overlap 75.png, id=294, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Sleep Overlap 75.png Graphic file (type png)
+<use ./figures/Spectrogram Sleep Overlap 75.png>
+Package pdftex.def Info: ./figures/Spectrogram Sleep Overlap 75.png  used on input line 568.
+(pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
+
+
+[16 <./figures/Spectrogram Sleep Overlap 50.png> <./figures/Spectrogram Sleep Overlap 75.png>]
+<./figures/Spectrogram Rest Window Size 128 samples.png, id=306, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Size 128 samples.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Size 128 samples.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Size 128 samples.png  used on input line 618.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
-<./figures/Spectrogram (Rest) - Window Size 256 samples.png, id=308, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Size 256 samples.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Size 256 samples.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Size 256 samples.png  used on input line 618.
+<./figures/Spectrogram Rest Window Size 256 samples.png, id=307, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Size 256 samples.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Size 256 samples.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Size 256 samples.png  used on input line 621.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
-<./figures/Spectrogram (Rest) - Window Size 512 samples.png, id=309, 684.3969pt x 395.3169pt>
-File: ./figures/Spectrogram (Rest) - Window Size 512 samples.png Graphic file (type png)
-<use ./figures/Spectrogram (Rest) - Window Size 512 samples.png>
-Package pdftex.def Info: ./figures/Spectrogram (Rest) - Window Size 512 samples.png  used on input line 621.
+<./figures/Spectrogram Rest Window Size 512 samples.png, id=308, 684.3969pt x 395.3169pt>
+File: ./figures/Spectrogram Rest Window Size 512 samples.png Graphic file (type png)
+<use ./figures/Spectrogram Rest Window Size 512 samples.png>
+Package pdftex.def Info: ./figures/Spectrogram Rest Window Size 512 samples.png  used on input line 624.
 (pdftex.def)             Requested size: 330.42041pt x 190.85983pt.
 
 
 [17]
 
-[18 <./figures/Spectrogram (Rest) - Window Size 128 samples.png> <./figures/Spectrogram (Rest) - Window Size 256 samples.png> <./figures/Spectrogram (Rest) - Window Size 512 samples.png>]
+[18 <./figures/Spectrogram Rest Window Size 128 samples.png> <./figures/Spectrogram Rest Window Size 256 samples.png> <./figures/Spectrogram Rest Window Size 512 samples.png>]
 
 [19]
 
 [20]
-<./figures/Optimal Spectrogram (Rest).png, id=355, 684.3969pt x 395.3169pt>
-File: ./figures/Optimal Spectrogram (Rest).png Graphic file (type png)
-<use ./figures/Optimal Spectrogram (Rest).png>
-Package pdftex.def Info: ./figures/Optimal Spectrogram (Rest).png  used on input line 716.
+<./figures/Optimal Spectrogram Rest.png, id=354, 684.3969pt x 395.3169pt>
+File: ./figures/Optimal Spectrogram Rest.png Graphic file (type png)
+<use ./figures/Optimal Spectrogram Rest.png>
+Package pdftex.def Info: ./figures/Optimal Spectrogram Rest.png  used on input line 719.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
-<./figures/Optimal Spectrogram (Sleep).png, id=356, 684.3969pt x 395.3169pt>
-File: ./figures/Optimal Spectrogram (Sleep).png Graphic file (type png)
-<use ./figures/Optimal Spectrogram (Sleep).png>
-Package pdftex.def Info: ./figures/Optimal Spectrogram (Sleep).png  used on input line 722.
+<./figures/Optimal Spectrogram Sleep.png, id=355, 684.3969pt x 395.3169pt>
+File: ./figures/Optimal Spectrogram Sleep.png Graphic file (type png)
+<use ./figures/Optimal Spectrogram Sleep.png>
+Package pdftex.def Info: ./figures/Optimal Spectrogram Sleep.png  used on input line 725.
 (pdftex.def)             Requested size: 377.62642pt x 218.12466pt.
 
 
-[21 <./figures/Optimal Spectrogram (Rest).png> <./figures/Optimal Spectrogram (Sleep).png>]
-<./figures/Hemodynamic Response Function (HRF).png, id=366, 1179.4464pt x 339.669pt>
+[21 <./figures/Optimal Spectrogram Rest.png> <./figures/Optimal Spectrogram Sleep.png>]
+<./figures/Hemodynamic Response Function (HRF).png, id=365, 1179.4464pt x 339.669pt>
 File: ./figures/Hemodynamic Response Function (HRF).png Graphic file (type png)
 <use ./figures/Hemodynamic Response Function (HRF).png>
-Package pdftex.def Info: ./figures/Hemodynamic Response Function (HRF).png  used on input line 769.
+Package pdftex.def Info: ./figures/Hemodynamic Response Function (HRF).png  used on input line 772.
 (pdftex.def)             Requested size: 377.62642pt x 108.74812pt.
 
 
 [22 <./figures/Hemodynamic Response Function (HRF).png>]
-<./figures/Hemodynamic Response Function Response.png, id=405, 859.2903pt x 570.933pt>
+<./figures/Hemodynamic Response Function Response.png, id=404, 859.2903pt x 570.933pt>
 File: ./figures/Hemodynamic Response Function Response.png Graphic file (type png)
 <use ./figures/Hemodynamic Response Function Response.png>
-Package pdftex.def Info: ./figures/Hemodynamic Response Function Response.png  used on input line 830.
+Package pdftex.def Info: ./figures/Hemodynamic Response Function Response.png  used on input line 833.
 (pdftex.def)             Requested size: 377.62642pt x 250.89766pt.
 
 
 [23]
 
 [24 <./figures/Hemodynamic Response Function Response.png>]
-<./figures/Inputs e1 and e2.png, id=475, 1171.4967pt x 339.669pt>
+<./figures/Inputs e1 and e2.png, id=474, 1171.4967pt x 339.669pt>
 File: ./figures/Inputs e1 and e2.png Graphic file (type png)
 <use ./figures/Inputs e1 and e2.png>
-Package pdftex.def Info: ./figures/Inputs e1 and e2.png  used on input line 878.
+Package pdftex.def Info: ./figures/Inputs e1 and e2.png  used on input line 881.
 (pdftex.def)             Requested size: 377.62642pt x 109.48929pt.
-<./figures/Response Inputs e1 and e2.png, id=476, 859.2903pt x 570.933pt>
+<./figures/Response Inputs e1 and e2.png, id=475, 859.2903pt x 570.933pt>
 File: ./figures/Response Inputs e1 and e2.png Graphic file (type png)
 <use ./figures/Response Inputs e1 and e2.png>
-Package pdftex.def Info: ./figures/Response Inputs e1 and e2.png  used on input line 920.
+Package pdftex.def Info: ./figures/Response Inputs e1 and e2.png  used on input line 923.
 (pdftex.def)             Requested size: 377.62642pt x 250.89766pt.
 
 
 [25 <./figures/Inputs e1 and e2.png>]
 
 [26 <./figures/Response Inputs e1 and e2.png>]
-<./figures/Response Verification Inputs e1 and e2.png, id=568, 859.2903pt x 402.5439pt>
+<./figures/Response Verification Inputs e1 and e2.png, id=560, 859.2903pt x 402.5439pt>
 File: ./figures/Response Verification Inputs e1 and e2.png Graphic file (type png)
 <use ./figures/Response Verification Inputs e1 and e2.png>
-Package pdftex.def Info: ./figures/Response Verification Inputs e1 and e2.png  used on input line 973.
+Package pdftex.def Info: ./figures/Response Verification Inputs e1 and e2.png  used on input line 981.
 (pdftex.def)             Requested size: 377.62642pt x 176.89873pt.
 
 
@@ -789,18 +837,18 @@ Package rerunfilecheck Warning: File `Maximiliano_Gaete_lab4_grupo1.out' has cha
 
 Package rerunfilecheck Info: Checksums for `Maximiliano_Gaete_lab4_grupo1.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A9B0C3D6035F8413DB5E13F3BD808CAB;9627.
+(rerunfilecheck)             After:  29AC1BF57952866CD5FD48E1B2B4069F;9859.
  ) 
 Here is how much of TeX's memory you used:
- 15658 strings out of 473899
- 254690 string characters out of 5726500
- 1048473 words of memory out of 5000000
- 37937 multiletter control sequences out of 15000+600000
+ 15997 strings out of 473899
+ 259642 string characters out of 5726500
+ 1053825 words of memory out of 5000000
+ 38269 multiletter control sequences out of 15000+600000
  563460 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,819b,2021s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0800.pk> <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Maximiliano_Gaete_lab4_grupo1.pdf (28 pages, 6473991 bytes).
+Output written on Maximiliano_Gaete_lab4_grupo1.pdf (28 pages, 6474725 bytes).
 PDF statistics:
  731 PDF objects out of 1000 (max. 8388607)
  418 named destinations out of 1000 (max. 500000)

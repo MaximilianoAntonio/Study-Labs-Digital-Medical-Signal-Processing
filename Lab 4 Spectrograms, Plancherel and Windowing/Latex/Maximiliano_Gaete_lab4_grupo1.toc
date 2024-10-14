@@ -47,4 +47,5 @@
 \contentsline {subsubsection}{\numberline {6.2.1}Interpretation}{24}{subsubsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.3}e1 and e2 Inputs}{24}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}e1 and e2 Responses}{25}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Graphical Analysis of Responses}{26}{subsubsection.6.4.1}%
 \contentsline {subsection}{\numberline {6.5}Linearity and Time-Invariance Verification}{26}{subsection.6.5}%

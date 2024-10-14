@@ -32,6 +32,15 @@
 % para agregar opciones al enumerate
 \usepackage{enumerate}
 
+% para poder hacer tablas más copadas
+\usepackage{booktabs}
+
+\usepackage{tocloft}
+
+% para poder hacer índice
+\usepackage{makeidx}
+
+
 % Teoremas
 \newtheorem{thm}{Teorema}[section]
 \newtheorem{cor}[thm]{Corolario}
@@ -76,11 +85,7 @@
 \usepackage{geometry}
 \geometry{left=2.5cm, right=2.5cm, top=2cm, bottom=3cm}
 
-\usepackage{makeidx}
-\makeindex
-
 \begin{document}
-
 
 \begin{titlepage}
 
@@ -110,8 +115,6 @@
 
 
 \end{titlepage}
-
-\printindex
 
 \tableofcontents
 
@@ -411,7 +414,7 @@ The rectangular window is the simplest, with no weighting applied. As a result, 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Rectangular.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Rectangular.png}
     \caption{Spectrogram (Rest) using Rectangular Window}
 \end{figure}
 
@@ -420,7 +423,7 @@ The Hamming window smooths the edges, reducing spectral leakage. This means that
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Hamming.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Hamming.png}
     \caption{Spectrogram (Rest) using Hamming Window}
 \end{figure}
 
@@ -429,7 +432,7 @@ The Hann window is similar to the Hamming window but with a steeper fall-off at 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Hann.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Hann.png}
     \caption{Spectrogram (Rest) using Hann Window}
 \end{figure}
 
@@ -441,7 +444,7 @@ Due to high spectral leakage, the rectangular window tends to show additional fr
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Sleep) - Window Rectangular.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Sleep Window Rectangular.png}
     \caption{Spectrogram (Sleep) using Rectangular Window}
 \end{figure}
 
@@ -450,7 +453,7 @@ This window minimizes the appearance of spurious components, making the spectrog
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Sleep) - Window Hamming.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Sleep Window Hamming.png}
     \caption{Spectrogram (Sleep) using Hamming Window}
 \end{figure}
 
@@ -459,7 +462,7 @@ Like the Hamming window, the Hann window suppresses spurious components, but its
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Sleep) - Window Hann.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Sleep Window Hann.png}
     \caption{Spectrogram (Sleep) using Hann Window}
 \end{figure}
 
@@ -511,7 +514,7 @@ In the spectrogram with no overlap (0\%), we observe that the data representatio
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Rest) - Overlap 0.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Rest Overlap 0.png}
     \caption{Spectrogram (Rest) with 0\% Overlap}
     \label{fig:rest_0_overlap}
 \end{figure}
@@ -522,7 +525,7 @@ As the overlap increases to 50\%, we observe a balance between temporal resoluti
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Rest) - Overlap 50.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Rest Overlap 50.png}
     \caption{Spectrogram (Rest) with 50\% Overlap}
     \label{fig:rest_50_overlap}
 \end{figure}
@@ -532,7 +535,7 @@ With a 75\% overlap, the spectrogram appears much smoother. This results in a mo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Rest) - Overlap 75.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Rest Overlap 75.png}
     \caption{Spectrogram (Rest) with 75\% Overlap}
     \label{fig:rest_75_overlap}
 \end{figure}
@@ -545,7 +548,7 @@ To further understand this effect, we see the spectrogram for a sleep condition 
 \subsubsection{Overlap 0\%}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Sleep) - Overlap 0.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Sleep Overlap 0.png}
     \caption{Spectrogram (Sleep) with 0\% Overlap}
     \label{fig:sleep_0_overlap}
 \end{figure}
@@ -553,7 +556,7 @@ To further understand this effect, we see the spectrogram for a sleep condition 
 \subsubsection{Overlap 50\%}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Sleep) - Overlap 50.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Sleep Overlap 50.png}
     \caption{Spectrogram (Sleep) with 50\% Overlap}
     \label{fig:sleep_50_overlap}
 \end{figure}
@@ -562,7 +565,7 @@ To further understand this effect, we see the spectrogram for a sleep condition 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram (Sleep) - Overlap 75.png}
+    \includegraphics[width=0.8\textwidth]{./figures/Spectrogram Sleep Overlap 75.png}
     \caption{Spectrogram (Sleep) with 75\% Overlap}
     \label{fig:sleep_75_overlap}
 \end{figure}
@@ -612,13 +615,13 @@ for size, label in zip(window_sizes, window_size_labels):
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Size 128 samples.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Size 128 samples.png}
     \caption{Spectrogram with Window Size 128 samples}
     
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Size 256 samples.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Size 256 samples.png}
     \caption{Spectrogram with Window Size 256 samples}
     
-    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram (Rest) - Window Size 512 samples.png}
+    \includegraphics[width=0.7\textwidth]{./figures/Spectrogram Rest Window Size 512 samples.png}
     \caption{Spectrogram with Window Size 512 samples}
     
     \label{fig:spectrograms}
@@ -713,13 +716,13 @@ The chosen combination of window type (Hamming), window size (256 samples), and 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram (Rest).png}
+    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram Rest.png}
     \caption{Spectrogram of the cardiac signal during rest.}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram (Sleep).png}
+    \includegraphics[width=0.8\linewidth]{./figures/Optimal Spectrogram Sleep.png}
     \caption{Spectrogram of the cardiac signal during sleep.}
 \end{figure}
 
@@ -833,7 +836,7 @@ plt.show()
 
 \subsubsection{Interpretation}
 
-The responses to the different inputs — a 3-second pulse, a 10-second pulse, and a 0.5 Hz sinusoidal wave — highlight how the Hemodynamic Response Function (HRF) models brain activity as a linear and time-invariant system.
+The responses to the different inputs a 3-second pulse, a 10-second pulse, and a 0.5 Hz sinusoidal wave highlight how the Hemodynamic Response Function (HRF) models brain activity as a linear and time-invariant system.
 
 For the \textbf{3-second pulse}, the response shows a rapid increase, peaking around 5 seconds, followed by a smooth decay. This demonstrates how the HRF models the brain's reaction to brief stimuli with an initial sharp rise in activity and a gradual return to baseline.
 
@@ -920,6 +923,11 @@ We calculate the responses of the system to the inputs $e_1$ and $e_2$ using the
     \includegraphics[width=0.8\linewidth]{./figures/Response Inputs e1 and e2.png}
     \caption{Response to inputs $e_1$ and $e_2$.}
 \end{figure}
+
+\subsubsection{Graphical Analysis of Responses}
+
+The response to $e_1$ shows an increase during the periods where the input is non-zero, following the shape of the HRF, with a peak and then a gradual decay. Similarly, the response to $e_2$ also follows the dynamics of the HRF, showing that the system reacts linearly to these inputs. This confirms that the system behaves as expected for linear, time-invariant systems.
+
 
 \subsection{Linearity and Time-Invariance Verification}
 
