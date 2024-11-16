@@ -1,0 +1,130 @@
+\documentclass[10pt, conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{mathptmx} % Para usar Times New Roman
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage[spanish]{babel} % Para ajustar al idioma español
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+\onehalfspacing % Establece el interlineado a 1.5
+
+\title{Procesamiento Digital de Señales ECG Fetales No Invasivas para la Detección de Arritmias}
+
+\author{
+	\IEEEauthorblockN{Maximiliano Gaete Pizarro}
+	\IEEEauthorblockA{
+		Estudiante de Ingeniería Civil Biomédica\\
+		\textit{Departamento de Ingeniería Biomédica} \\
+		\textit{Universidad de Valparaíso}\\
+		Valparaíso, Chile \\
+		maximiliano.gaete@alumnos.uv.cl}
+	\and
+	\IEEEauthorblockN{David Ortiz Puerta}
+	\IEEEauthorblockA{
+		Doctorado en Cs. de la Ingeniería Civil (PUC)\\
+		\textit{Departamento de Ingeniería Biomédica} \\
+		\textit{Universidad de Valparaíso}\\
+		Valparaíso, Chile \\
+		david.ortiz@uv.cl}
+}
+
+\maketitle
+
+%\begin{abstract}
+%El resumen del anteproyecto iría aquí, aunque para el anteproyecto de máximo 2 páginas quizás no sea necesario incluir un resumen.
+%\end{abstract}
+
+\section{Introducción}
+
+Las arritmias cardíacas fetales son anomalías en el ritmo cardíaco del feto que pueden tener consecuencias significativas para su desarrollo y salud. La detección temprana y precisa de estas arritmias es esencial para intervenir oportunamente y reducir riesgos asociados a complicaciones como hidropesía fetal y muerte intrauterina \cite{behar2019noninvasive}.
+
+\section{Planteamiento del Problema}
+
+Las arritmias cardíacas fetales se definen como cualquier ritmo cardíaco fetal irregular o regular con una frecuencia fuera del rango de referencia de 100 a 160 latidos por minuto (bpm). Aunque la mayoría son benignas, algunas pueden causar complicaciones severas. La detección no invasiva de estas arritmias presenta desafíos significativos debido a la baja amplitud de la señal fetal y a la presencia de ruido y artefactos.
+
+\subsection{Descripción del Estudio}
+
+El objetivo de este estudio es desarrollar y aplicar técnicas de procesamiento digital de señales para mejorar la detección de arritmias en señales ECG fetales no invasivas. La hipótesis central es que, mediante el uso de métodos de filtrado y análisis adecuados, es posible extraer de manera efectiva la señal fetal de los registros abdominales maternos y detectar patrones característicos de arritmias. Este trabajo es relevante en el contexto biomédico, ya que contribuiría al diagnóstico temprano y al tratamiento oportuno de condiciones que pueden afectar significativamente la salud fetal y neonatal.
+
+\subsection{Equipos, Metodología de Procesamiento y Ruidos de la Señal}
+
+Las señales utilizadas provienen de la base de datos Non-Invasive Fetal ECG Arrhythmia Database (NIFEA DB) \cite{behar2019noninvasive}, disponible en \url{https://physionet.org/content/nifeadb/1.0.0/}. Los registros fueron obtenidos mediante electrodos de superficie colocados en el abdomen y pecho de la madre, capturando múltiples canales abdominales y un canal torácico materno, con frecuencias de muestreo de 500 Hz o 1 kHz.
+
+Los principales tipos de ruido presentes en las señales son:
+
+\begin{itemize}
+	\item \textbf{Señal ECG Materna (MECG):} De mayor amplitud que la fetal, puede enmascarar los complejos QRS fetales.
+	\item \textbf{Ruido Muscular (EMG):} Actividad eléctrica de los músculos uterinos y abdominales.
+	\item \textbf{Interferencias Electromagnéticas:} Ruido de línea eléctrica y otros artefactos ambientales.
+	\item \textbf{Movimiento Materno y Fetal:} Cambios en la impedancia y artefactos por movimiento.
+\end{itemize}
+
+Estos ruidos afectan la calidad de la señal y complican el procesamiento, requiriendo técnicas como filtrado adaptativo, análisis de componentes independientes y algoritmos de supresión de artefactos.
+
+\subsection{Fisiología de la Señal y Umbrales de Variables}
+
+La señal ECG fetal representa la actividad eléctrica del corazón fetal, crucial para monitorear su estado de salud. La frecuencia cardíaca fetal normal oscila entre 110 y 160 bpm. Valores fuera de este rango pueden indicar bradicardia o taquicardia fetal. La amplitud de la señal ECG fetal es significativamente menor que la materna, generalmente entre 10 µV y 50 µV. Los intervalos temporales y la morfología de los complejos QRS son esenciales para identificar arritmias como extrasístoles, taquicardias supraventriculares o bloqueos auriculoventriculares.
+
+\subsection{Población de Estudio y Condiciones de Adquisición}
+
+La población de estudio incluye fetos con diagnóstico de arritmia y fetos con ritmo cardíaco normal, registrados en entornos clínicos controlados. Las gestantes tienen edades y características diversas, y las grabaciones se realizan preferentemente en el tercer trimestre de gestación, cuando la señal fetal es más accesible. Aunque se busca minimizar la influencia de factores externos, variables como la posición fetal, el índice de masa corporal materno y movimientos involuntarios pueden introducir variabilidad y ruido en las señales.
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Desarrollar un método de procesamiento digital para señales ECG fetales no invasivas que permita la detección eficaz de arritmias.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+	\item Aplicar técnicas de preprocesamiento y filtrado para mejorar la relación señal-ruido de las señales ECG fetales.
+	\item Identificar y extraer características clave en las señales procesadas que indiquen la presencia de arritmias.
+	\item Utilizar análisis espectral y temporal para evaluar la información contenida en las señales y contrastar con registros normales.
+\end{itemize}
+
+\section{Estado del arte}
+
+La detección de arritmias fetales a través de ECG no invasivo es un área de investigación activa debido a su potencial para mejorar el monitoreo prenatal \cite{behar2019noninvasive}. La base de datos NIFEA DB, utilizada en este proyecto, fue recopilada y puesta a disposición por Behar \textit{et al.}
+
+Además, es esencial citar el recurso estándar de PhysioNet \cite{goldberger2000physiobank}, que proporciona acceso a bases de datos fisiológicas complejas y herramientas para su análisis.
+
+\section{Descripción de la Señal Biomédica y Técnicas de Procesamiento}
+
+La señal ECG fetal es una representación eléctrica de la actividad cardíaca del feto, crucial para el monitoreo prenatal. Debido a su baja amplitud y a la presencia de múltiples fuentes de ruido, se requiere un procesamiento cuidadoso para extraer información significativa.
+
+Las técnicas de procesamiento a aplicar incluyen:
+
+\subsection{Preprocesamiento y Filtrado}
+
+En el proceso de preprocesamiento y filtrado de señales cardíacas, se utilizan filtros pasabanda que permiten el paso de frecuencias en un rango específico, por ejemplo, entre 0.5 Hz y 100 Hz, para eliminar los ruidos de alta y baja frecuencia que no corresponden a la actividad cardíaca. Además, se aplican filtros notch para eliminar interferencias de frecuencia fija, como el ruido de la corriente eléctrica de 50/60 Hz, y se emplean técnicas de suavizado que reducen el ruido aleatorio sin afectar significativamente la forma de la señal.
+
+\subsection{Separación de Señales Materna y Fetal}
+
+En cuanto a la separación de las señales materna y fetal, el análisis de componentes independientes (ICA) es clave, ya que permite descomponer señales multicanal y aislar la señal fetal de la materna y otros ruidos. Complementariamente, se implementan filtros adaptativos, como el filtro de mínimos cuadrados medios (LMS), que utilizan la señal materna como referencia para minimizar su influencia en los registros abdominales.
+
+\subsection{Detección y Extracción de Características}
+
+La detección y extracción de características de la señal fetal se realiza mediante algoritmos, como el Pan-Tompkins modificado, que identifica los picos R en la señal fetal, adaptándose a su baja amplitud y alta variabilidad. Para evaluar la variabilidad de la frecuencia cardíaca, se analiza la serie de intervalos RR, lo que permite identificar posibles patrones de arritmias. También se recurre a técnicas de análisis espectral, como la transformada de Fourier de tiempo corto (STFT) y la transformada wavelet, para observar cambios en la frecuencia y detectar anomalías.
+
+\subsection{Visualización y Evaluación de la Señal Procesada}
+
+Finalmente, la visualización y evaluación de la señal procesada incluyen la reconstrucción de la señal ECG fetal limpia, lo que permite un análisis clínico más claro y detallado, mostrando una morfología precisa de los complejos QRS. Esta señal se compara con registros normales para identificar diferencias significativas, especialmente en casos de arritmias. La aplicación de estas técnicas tiene como objetivo mejorar la calidad de la señal, facilitando una detección más confiable de arritmias y un análisis clínico más preciso.
+
+\section{Consideraciones Finales}
+
+Este proyecto se centrará en la implementación y evaluación de diferentes técnicas de procesamiento para mejorar la detección de arritmias fetales. Se espera que los resultados obtenidos contribuyan al desarrollo de herramientas clínicas más efectivas para el monitoreo fetal no invasivo.
+
+
+\end{document}
